@@ -101,6 +101,7 @@ function App() {
   }
 
   function handleResetScores() {
+    setGameTurns([]);
     setWinsX(0);
     setDrawsX(0);
     setWinsO(0);
